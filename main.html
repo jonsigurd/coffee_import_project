@@ -1,1 +1,129 @@
 
+<!DOCTYPE html>
+<html lang="fo">
+<head>
+    <meta charset="UTF-8">
+    <title>Kaffi Import</title>
+    <meta name="keywords" contents="kaffi, kaffibønir, malið kaffi, vørur, samband, navn, telefon, heimstaður, email">
+    <meta name="description" contents="">
+</head>
+<body>
+    <h1>Vælkomin til Kaffi Import</h1>
+    <hr>
+    <p>Hey! Her á síðuni síggja tit eitt yvirlit yvir vørur okkara.</p>
+    <h2 href="">Vørur</h2>
+    <table border="1">
+        <tr>
+            <th>Kaffibønir</th>
+            <th>Malið kaffi</th>
+            <th>Snarkaffi</th>
+        </tr>
+        <tr>
+            <td>
+                <img
+                        id="kaffibonir"
+                        width="200"
+                        height="200"
+                        src="https://assets.bonappetit.com/photos/5c366551f212512d0e6cefd0/16:9/w_2560%2Cc_limit/Basically-Coffee-0219-03.jpg"
+                        title="Kaffibønir"
+                        alt="Mynd av kaffibønum"
+                >
+            </td>
+            <td>
+                <img
+                        id="malid_kaffi"
+                        width="200"
+                        height="200"
+                        src="https://cdn.shopify.com/s/files/1/0897/2714/products/robusta_Coffee_Powder_Buy_Online_From_Natureloc_c36ee1ee-0514-43df-b9b4-c84f8d691f50_grande.jpg?v=1571439075"
+                        title="Malið kaffi"
+                        alt="Mynd av malnum kaffi"
+                >
+            </td>
+            <td>
+                <img
+                        id="snarkaffi"
+                        width="200"
+                        height="200"
+                        src="https://cdn.shopify.com/s/files/1/2362/7179/products/UCC_The_Blend_114_Instant_Coffee_90_grams_Jar_One_Spoon_of_Instant_Coffee.jpg?v=1576790858"
+                        title="Snarkaffi"
+                        alt="Mynd av snarkaffi"
+                >
+            </td>
+        </tr>
+    </table>
+
+    <h1>Bíleggingarlisti</h1>
+    <form action="/" method="get">
+        <p>
+            <label for="fname">Fornavn:</label>
+            <input id="fname" type="text" placeholder="John" name="fname" required>
+            <label for="lname">Eftirnavn:</label>
+            <input id="lname" type="text" placeholder="Smith" name="lname" required>
+        </p>
+        <p>
+            <label for="email">Email:</label>
+            <input id="email" type="email" placeholder="johnsmith@example.com" name="email" required>
+            <label for="password">Loyniorð:</label>
+            <input id="password" type="password" placeholder="loyniorð" pattern=".{5,10}" title="Má vera millum 5 og 10 stavir til longdar" name="password" required>
+        </p>
+
+        <p>
+            <label for="agree">Eg góðtaki <a href="/">krøvini</a>, ið verða sett av Kaffe Import</label>
+            <input id="agree" type="checkbox" name="agree">
+        </p>
+        <p>
+            <label for="">Maður</label>
+            <input id="female" type="radio" name="kyn" value="kvinna" required>
+        </p>
+        <p>
+            <input type="submit" value="Skráset">
+        </p>>
+    </form>
+</body>
+<footer>
+    <hr>
+    <h2>Samband</h2>
+    <table summary="Upplýsingar um Jógvan Patursson, Jógvan Reinert Samuelsen og Jón Sigurd Vang Poulsen">
+        <tr>
+            <td>Navn:</td>
+            <td>Jógvan Patursson</td>
+            <td width="50"></td>
+            <td>Navn:</td>
+            <td>Jógvan Reinert Samuelsen</td>
+            <td width="50"></td>
+            <td>Navn:</td>
+            <td>Jón Sigurd Vang Poulsen</td>
+        </tr>
+        <tr>
+            <td>Telefon:</td>
+            <td>271003</td>
+            <td width="50"></td>
+            <td>Telefon:</td>
+            <td>225165</td>
+            <td width="50"></td>
+            <td>Telefon:</td>
+            <td>254094</td>
+        </tr>
+        <tr>
+            <td>Heimstaður:</td>
+            <td>Kirkjubøur</td>
+            <td width="50"></td>
+            <td>Heimstaður:</td>
+            <td>Hoyvík</td>
+            <td width="50"></td>
+            <td>Heimstaður:</td>
+            <td>Hvalba</td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td><a href="mailto:jogvanpatursson@gmail.com">jogvanpatursson@gmail.com</a></td>
+            <td width="50"></td>
+            <td>Email:</td>
+            <td><a href="mailto:jogvanrs@gmail.com">jogvanrs@gmail.com</a></td>
+            <td width="50"></td>
+            <td>Email:</td>
+            <td><a href="mailto:jogvanpatursson@gmail.com">jonsigurdvp@gmail.com</a></td>
+        </tr>
+    </table>
+</footer>
+</html>
